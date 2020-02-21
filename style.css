@@ -76,7 +76,7 @@ button:focus {outline: none;}
 
   .swiper-pagination-bullet-active {background-color: white !important; color: black !important;}
 
-  .swiper-button-prev,   .swiper-button-next {z-index: 500 !important;}
+  .swiper-button-prev {z-index: 500 !important;}
 
   .cr-button{width: 140px; height: 45px;background-color: white; color: black;border: none;border-radius: 100px;font-size: 15px ;font-weight: 500;transition: 0.2s ease;}
 
