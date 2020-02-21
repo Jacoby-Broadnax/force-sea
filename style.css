@@ -1,0 +1,143 @@
+
+body {font-family: roboto;margin: 0px; padding: 0px; }
+
+html {}
+
+.nav-container {position: absolute; top: 0px; z-index: 150; left: 0px;;}
+
+.logo-container > img {width: 100%;}
+
+.logo-container {width: 195px;margin-top: 10px;float: left;}
+
+.menu-btns > li {display: inline-block;margin-left: 13px;}
+
+.menu-btns > li > a {text-decoration: none;color: white;font-weight: normal;font-size: 14.5px;}
+
+.menu-btns > li > a:hover {color: rgb(170, 170, 170);}
+
+.menu-btns {float: left;margin-top: 50px;padding-left: 0px;}
+
+.blocks {width: 100%; height: 100vh;background-color: green;}
+.section > h1 {text-align: center; font-weight: 500;}
+
+.section > p {font-weight: normal; text-align: center;}
+
+button:hover {cursor: pointer;}
+
+button:focus {outline: none;}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+ 
+  }
+  .swiper-slide {
+
+  }
+
+  .swiper-slide > img {width: 100%; object-fit: cover;filter: brightness(0.5);height: 100%;}
+
+.collapse-logo > img {width: 120px;float: left;margin-top: 10px;}
+
+.collapsed-nav > div > .menu-btns > li {float: left;margin-top: 27px;margin-left: 20px;color: black;}
+.collapsed-nav > div > .menu-btns > li > a {color: black;}
+
+.collapsed-nav > div > .menu-btns {width: 400px; float: left; margin-top: 2px;}
+
+#collapse{display: none;}
+
+#collapse.on {display: block;}
+
+.collapsed-nav > div {margin: auto; width: 525px;}
+
+
+
+.collapsed-nav {position: fixed; top: 0px; width: 100%;height: 80px;z-index: 550;background-color: white;-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.18);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.18);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.18);}
+
+  .swiper-slide:nth-child(even) {background-color: #F69442;}
+
+  .swiper-slide:nth-child(odd) {background-color: rgb(172, 202, 202);}
+
+
+
+  .carousel {height: 70vh;margin: auto; width:100%;margin-top: 0px;border-radius: 10px;}
+
+  .carousel-overlay {position: absolute;z-index:10;width: 100%;}
+
+  .carousel-sub {margin: auto; width: 500px;}
+
+  .carousel-sub > p  {width: 100%;text-align: center;color: white; }
+
+  .carousel-sub > h1 {font-size: 60px;color: white;font-weight: 500;margin-top: 120px;text-align: center;margin-bottom: 0px;margin-top: 150px;}
+
+  
+
+  .swiper-pagination-bullet-active {background-color: white !important; color: black !important;}
+
+  .swiper-button-prev,   .swiper-button-next {z-index: 500 !important;}
+
+  .cr-button{width: 140px; height: 45px;background-color: white; color: black;border: none;border-radius: 100px;font-size: 15px ;font-weight: 500;transition: 0.2s ease;}
+
+.cr-button:hover {background-color: rgba(255, 255, 255, 0.719);}
+
+  .active {background-color: transparent; color: white; border: solid 2px white;margin-left: 7px;}
+
+  .active:hover {background-color: white;color: black;}
+
+  .cr-button-container {margin: auto; width: 300px;}
+
+
+
+  /*-----------------------------------------------------Grouped Icons----------------------------------------------------------*/
+
+  .icons-svg {width: 140px; height: 140px;background-image: url(/assets/skills\ icon.svg);background-size: cover;border-radius: 100px;object-fit: cover;}
+
+  .icons-svg:hover {background-image: url(https://media.giphy.com/media/Piv1wej3nBONalcNXP/giphy.gif);}
+
+
+
+  .icon {display: inline-block;margin-left: 220px;width: 140px;vertical-align: top;}
+
+  .icon > p {font-weight: 500; text-align: center; font-size: 13px;;}
+
+  .exc {margin-left: 30px;}
+
+  .grouped-icons > a {margin-left: 30px;text-decoration: none ;color: black;}
+
+  .icon > h2 {font-weight: 500;width: 100%; text-align: center;}
+
+  .icon:first-of-type {margin-left: 0px;}
+
+  .ex{
+    background-image: url(/assets/experience\ icon.svg);
+  }
+
+
+
+  .grouped-icons {margin: auto; width: 880px;margin-top:2vh;height: 211px;}
+
+  .ex:hover {background-image: url(https://media.giphy.com/media/gfC0RcIqZ4J4witLKT/giphy.gif);}
+
+  .ad {background-image: url(/assets/adventure\ icon.svg);}
+
+
+  /*--------------------------------------------------------About Us---------------------------------------------------------------*/
+
+  .about-us {margin:auto; width: 900px;padding-top: 100px;margin-top: -75px; ;}
+
+
+  /*--------------------------------------------------------Education---------------------------------------------------------*/
+
+  .education {height: 100vh;margin:auto; width:900px ;margin-top: 20vh;}
+
+  .education > h1 {padding-top: 30vh;}
+
+  .exc {background-image: none;}
+
+  .icon >img {-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.18);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.18);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.18);transition: 0.2s ease;;}
+
+    .icon > img:hover {box-shadow: none;background-image: none ;}

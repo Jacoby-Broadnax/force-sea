@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>SEA Force | Skills. Experience. Adventure.</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="
+        Sea Force is a novel approach to career exploration in Harrison County, Mississippi involving partnerships with local high schools and businesses to match students with the career they think they want.">
+        <meta name="language" content="English">
+<link rel="stylesheet" href="/vivify.min.css">
+        <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="/swiper.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    </head>
+
+    <body>
+        <header>
+<nav>
+    <div class="nav-container">
+        <div class="logo-container">
+            <img id="logo" src="/branding/sea force logo.svg">
+        </div>
+    
+    <ul class="menu-btns">
+        <li><a href="#">Home</a></li>
+        <li><a href="#about-us">About Us</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contactus">Contact Us</a></li>
+    </ul>
+</div>
+</nav>
+<div class="collapsed-nav vivify fadeInTop  delay-100" id="collapse">
+    <div>
+    <div class="collapse-logo">
+        <img id="logo" src="/branding/sea force logo.svg">
+    </div>
+    <ul class="menu-btns">
+      <li><a href="#">Home</a></li>
+      <li><a href="#about-us">About Us</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contactus">Contact Us</a></li>
+    </ul>
+</div>
+</div>
+
+<script>
+    $(window).scroll(function () {
+        var scroll = $(window).scrollTop();
+        if (scroll > 50) {
+            $("#collapse").addClass("on");
+        } else {
+            $("#collapse").removeClass("on");
+        }
+    });
+</script>
+        </header>
+
+
+<div class="carousel">
+    <div class="carousel-overlay">
+      <div class="carousel-sub">
+        <h1>Skills. Experience. Adventure.</h1>
+        <p>Sea Force is a novel approach to career exploration in Harrison County, Mississippi involving partnerships with local high schools and businesses to match students with the career they think they want.</p>
+        <div class="cr-button-container">
+          <a href=""><button class="cr-button">Contact Us</button></a>
+          <a href=""><button class="cr-button active">Learn More</button></a>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-container" data-aos= "fade">
+        <div class="swiper-wrapper">
+   
+          <div class="swiper-slide"><img src="/images/IMG_3731.png" class="swiper-lazy" loading="lazy" alt="Slide 1"></div>
+          <div class="swiper-slide"><img src="/images/IMG_3756.png" class="swiper-lazy" loading="lazy" alt="Slide 2"></div>
+          <div class="swiper-slide"><img src="/images/IMG_8042.png" class="swiper-lazy" loading="lazy" alt="Slide 3"></div>
+          <div class="swiper-slide"><img src="/images/IMG_0367.png" class="swiper-lazy" loading="lazy" alt="Slide 4"></div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next" style="color: white;z-index: 500 !important;"></div>
+        <div class="swiper-button-prev" style="color: white;z-index: 500 !important;"></div>
+      </div>
+    
+</div>
+
+<script src="/swiper.js"></script>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+      spaceBetween: 0,
+      lazy:true,
+      effect: 'fade',
+      centeredSlides: true,
+      autoplay: {
+        delay: 4000,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
+
+
+
+<div class="about-us section" id="about-us" >
+  <h1>About Us</h1>
+  <p>Sea Force is a novel approach to career exploration in Harrison County, Mississippi involving partnerships with local high schools and businesses to match students with the career they think they want. Through a grant from the Workforce Investment Board, juniors and seniors who are recommended by the school are then interviewed by their choice of business. In turn, the Harrison County Development Commission pays the student while the employer gets a talented employee at no cost. </p>
+  
+  </div>
+
+
+<div class="grouped-icons">
+  <div data-aos="fade-up" class="icon">
+    <div class="icons-svg"></div>
+    <h2>Skills</h2>
+  </div>
+
+  <div class="icon" data-aos="fade-up" data-aos-delay="100">
+      <div class="icons-svg ex"></div>
+      <h2>Experience</h2>
+    </div>
+
+    <div class="icon" data-aos="fade-up" data-aos-delay="200"> 
+      <div class="icons-svg ad"></div>
+      <h2>Adventure</h2>
+    </div>
+</div>
+
+
+
+
+<div class="education section" id="education">
+<h1 data-aos="fade-up">Education</h1>
+<p data-aos="fade-up" data-aos-delay="50">Through a grant from the Workforce Investment Board, juniors and seniors who are recommended by the school are then interviewed by their choice of business. In turn, the Harrison County Development Commission pays the student while the employer gets a talented employee at no cost.</p>
+<div class="grouped-icons">
+    <a href="" rel="noreferrer" target="_blank">
+    <div data-aos="fade-up" class="icon exc" data-aos="fade-up" data-aos-delay="100">
+        <img class="icons-svg" src="/assets/gulfport.svg">
+      <p><strong>Gulfport</strong> School District</p>
+    </div>
+</a>
+<a href="" rel="noreferrer" target="_blank">
+    <div class="icon exc" data-aos="fade-up" data-aos-delay="150">
+       <img class="icons-svg" src="/assets/longbeach.svg">
+        <p><strong>Long Beach</strong> School District</p>
+    </div>
+</a>
+<a href="" rel="noreferrer" target="_blank">
+      <div class="icon exc" data-aos="fade-up" data-aos-delay="200"> 
+        <img class="icons-svg" src="/assets/Harrison county.svg">
+        <p><strong>Harrison County</strong> School District</p>
+        </div>
+    </a>
+    <a href="" rel="noreferrer" target="_blank">
+        <div class="icon exc" data-aos="fade-up" data-aos-delay="250"> 
+            <img class="icons-svg" src="/assets/pass christian.svg">
+            <p><strong>Pass Christian</strong> School District</p>
+          </div>
+        </a>
+        <a href="" rel="noreferrer" target="_blank">
+            <div class="icon exc" data-aos="fade-up" data-aos-delay="300"> 
+                <img class="icons-svg" src="/assets/biloxi.svg">
+                <p><strong>Biloxi</strong> School District</p>
+            </div>  
+        </a>  
+      </div>
+</div>
+
+        <footer>
+
+        </footer>
+
+        <script>
+            AOS.init();
+          </script>
+    </body>
+</html>
