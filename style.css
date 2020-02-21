@@ -1,9 +1,9 @@
 
-body {font-family: roboto;margin: 0px; padding: 0px; }
+body {font-family: roboto,sans-serif;margin: 0px; padding: 0px; }
 
 html {}
 
-.nav-container {position: absolute; top: 0px; z-index: 150; left: 0px;;}
+.nav-container {position: absolute; top: 0px; z-index: 150; left: 50px;;}
 
 .logo-container > img {width: 100%;}
 
@@ -64,7 +64,11 @@ button:focus {outline: none;}
 
   .carousel {height: 70vh;margin: auto; width:100%;margin-top: 0px;border-radius: 10px;}
 
-  .carousel-overlay {position: absolute;z-index:10;width: 100%;}
+  .carousel-overlay {position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;z-index: 50;width: 500px;}
 
   .carousel-sub {margin: auto; width: 500px;}
 
