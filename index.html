@@ -47,7 +47,7 @@
         <li><a href="#">Home</a></li>
         <li><a href="#about-us">About Us</a></li>
         <li><a href="#education">Education</a></li>
-        <li><a href="#contactus">Contact Us</a></li>
+        <li><a href="#contact">Contact Us</a></li>
     </ul>
 </div>
 </nav>
@@ -60,7 +60,7 @@
       <li><a href="#">Home</a></li>
       <li><a href="#about-us">About Us</a></li>
       <li><a href="#education">Education</a></li>
-      <li><a href="#contactus">Contact Us</a></li>
+      <li><a href="#contact">Contact Us</a></li>
     </ul>
 </div>
 </div>
@@ -84,18 +84,19 @@
         <h1>Skills. Experience. Adventure.</h1>
         <p>Sea Force is a novel approach to career exploration in Harrison County, Mississippi involving partnerships with local high schools and businesses to match students with the career they think they want.</p>
         <div class="cr-button-container">
-          <a href=""><button class="cr-button">Contact Us</button></a>
-          <a href=""><button class="cr-button active">Learn More</button></a>
+          <a href="#contact"><button class="cr-button">Contact Us</button></a>
+          <a href="#about-us"><button class="cr-button active">Learn More</button></a>
         </div>
       </div>
     </div>
     <div class="swiper-container" data-aos= "fade">
         <div class="swiper-wrapper">
    
-          <div class="swiper-slide"><img alt="Two Men on the left and Two Women on the right stand in a group photo. The women on the far right is holding a shirt that reads, SEA Force" src="/images/IMG_3731.jpg" class="swiper-lazy" loading="lazy" alt="Slide 1"></div>
-          <div class="swiper-slide"><img alt="Slide 2, Three Men Standing In a Group Photo" src="/images/IMG_3756.png" class="swiper-lazy" loading="lazy" alt="Slide 2"></div>
-          <div class="swiper-slide"><img alt="Slide 1, Two Interns In Front Of A Logo That Read, 'JZ 94.5 The People's Station'" src="/images/IMG_8042.jpg" class="swiper-lazy" loading="lazy" alt="Slide 3"></div>
-          <div class="swiper-slide"><img alt="Slide 4, 5 women stand in a group photo" src="/images/IMG_0367.jpg" class="swiper-lazy" loading="lazy" alt="Slide 4"></div>
+          <div class="swiper-slide"><img alt="Slide 1, Two Men on the left and Two Women on the right stand in a group photo. The woman on the far right is holding a shirt that reads, SEA Force" src="/images/IMG_3731.jpg" class="swiper-lazy" loading="lazy" alt="Slide 1"></div>
+          <div class="swiper-slide"><img alt="Slide 2, Three Men Standing In a Group Photo" src="/images/IMG_3756.png" class="swiper-lazy" loading="lazy" ></div>
+          <div class="swiper-slide"><img alt="Slide 3, Two Interns In Front Of A Logo That Read, 'JZ 94.5 The People's Station'" src="/images/IMG_8042.jpg" class="swiper-lazy" loading="lazy""></div>
+          <div class="swiper-slide"><img alt="Slide 4, 5 women stand in a group photo" src="/images/IMG_0367.jpg" class="swiper-lazy" loading="lazy" "></div>
+          <div class="swiper-slide"><img alt="Slide 5, 5 women stand in a group photo" src="/images/IMG_8065.png" class="swiper-lazy" loading="lazy" ></div>
         </div>
         <!-- Add Pagination -->
         <div class="swiper-pagination"></div>
@@ -192,6 +193,47 @@
             </div>  
         </a>  
       </div>
+</div>
+
+<div class="contact section" id="contact">
+  <h1 data-aos="fade-up">Contact</h1>
+  <p data-aos="fade-up" data-aos-delay="50">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus inventore consequatur dolor deleniti natus hic et doloremque nihil, laborum facere.</p>
+  <div class="left-group">
+    <div class="person">
+      <img src="/images/brandihough.png"> 
+      <div class="person-text-container">
+        <h3>Brandi Hough</h3>
+        <p>Director, Business Development</p>
+        <a data-name="bhough" data-domain="mscoast" data-tld="org" href="#" class="cryptedmail" onclick="window.location.href = 'mailto:' + this.dataset.name + '@' + this.dataset.domain + '.' + this.dataset.tld"></a>
+
+        </div>
+    </div>
+
+    <div class="person">
+      <img src="/images/billlavers.png"> 
+      <div class="person-text-container">
+        <h3>Bill Lavers</h3>
+        <p>Executive Director</p>
+        <a data-name="blavers" data-domain="mscoast" data-tld="org" href="#" class="cryptedmail" onclick="window.location.href = 'mailto:' + this.dataset.name + '@' + this.dataset.domain + '.' + this.dataset.tld"></a>
+
+        </div>
+    </div>
+  </div>
+
+  <div class="right-group">
+    <form netlify action="complete.html">
+<label>First Name
+</label>
+<input type="text" placeholder="first name" required>
+<label>Last Name</label>
+<input type="text" placeholder="last name" required>
+<label>E Mail</label>
+<input type="email" placeholder="example@gmail.com" required>
+<label>Message</label>
+<textarea placeholder="your message"></textarea>
+<button type="submit">SUBMIT</button>
+    </form>
+  </div>
 </div>
 
         <footer>
