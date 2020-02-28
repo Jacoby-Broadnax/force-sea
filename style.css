@@ -158,3 +158,5 @@ button:focus {outline: none;}
     }
 
     .contact {margin: auto;width: 900px;}
+
+    .person > img {width: 130px;border-radius: 150px;}
