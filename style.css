@@ -161,6 +161,10 @@ button:focus {outline: none;}
 
     .person > img {width: 130px;border-radius: 150px;float: left;}
 
-    .person-text-container {float: left;}
+    .person-text-container {float: left;margin-left: 20px;}
+
+    .person-text-container > h3 {font-size: 17px;padding: 0px;margin: 0px;}
+
+    .person-text-container > p {font-size: 14px;padding: 0px;margin: 0px;}
 
     .person {display: inline-block;margin-top: 30px;}
