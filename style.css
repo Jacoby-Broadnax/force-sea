@@ -161,7 +161,7 @@ button:focus {outline: none;}
       content: attr(data-name) "@" attr(data-domain) "." attr(data-tld); 
     }
 
-    .contact {margin: auto;width: 900px;}
+    .contact {margin: auto;width: 900px;height: 100vh;padding-top: 30vh;}
 
     .person > img {width: 130px;border-radius: 150px;float: left;}
 
@@ -176,3 +176,25 @@ button:focus {outline: none;}
     .cryptedmail {margin-top: 10px;}
 
     .person {display: inline-block;margin-top: 30px;}
+
+    .left-group {width: 40%;display: inline-block;float: left;}
+
+    .right-group {display:inline-block;width: 55%;margin-left: 20px;float: left;margin-top: 60px;}
+
+    .halfed {width: 100%;float: left;margin-left: 10px;}
+
+    .input {width: 100%;height: 30px;padding-left: 10px;margin-bottom: 15px;margin-top: 7px;border: solid 1px lightgray;border-radius:5px;}
+
+    .textarea {width: 100%;padding: 0px;padding-left: 5px;width: 503px;border: solid 1px lightgray; border-radius: 5px;height: 80px;}
+
+    form {width: 100%;}
+
+    .half-label:last-of-type {margin-top: -50px;}
+
+    .label {font-weight:500;}
+    
+    .half-container {float: left; width: 47%;margin-left: 29px;;}
+
+    .half-container:first-of-type {margin-left: 0px;}
+
+    .halfed:first-of-type {margin-left: 0px;}
