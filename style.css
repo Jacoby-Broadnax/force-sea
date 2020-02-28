@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
-body {font-family: Roboto;margin: 0px; padding: 0px; }
+body {font-family: Roboto;margin: 0px; padding: 0px;scroll-behavior: smooth; }
 
-html {}
+html {scroll-behavior: smooth;}
 
 .nav-container {position: absolute; top: 0px; z-index: 150; left: 50px;;}
 
@@ -162,6 +162,8 @@ button:focus {outline: none;}
     }
 
     .contact {margin: auto;width: 900px;height: 100vh;padding-top: 30vh;}
+
+    .contact > h1 {margin-bottom: -24px;}
 
     .person > img {width: 130px;border-radius: 150px;float: left;}
 
