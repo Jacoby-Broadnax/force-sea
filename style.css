@@ -93,6 +93,10 @@ button:focus {outline: none;}
 
   .cr-button-container {margin: auto; width: 300px;}
 
+  #hero {transition: 0.5s ease;}
+
+  #hero.go {opacity: 0;}
+
 
 
   /*-----------------------------------------------------Grouped Icons----------------------------------------------------------*/
@@ -132,7 +136,7 @@ button:focus {outline: none;}
 
   /*--------------------------------------------------------About Us---------------------------------------------------------------*/
 
-  .about-us {margin:auto; width: 900px;padding-top: 100px;margin-top: -75px; ;}
+  .about-us {margin:auto; width: 900px;padding-top: 350px;margin-top: -300px; ;}
 
 
   /*--------------------------------------------------------Education---------------------------------------------------------*/
@@ -161,10 +165,14 @@ button:focus {outline: none;}
 
     .person > img {width: 130px;border-radius: 150px;float: left;}
 
-    .person-text-container {float: left;margin-left: 20px;}
+    .person-text-container {float: left;margin-left: 20px;margin-top: 30px;}
 
     .person-text-container > h3 {font-size: 17px;padding: 0px;margin: 0px;}
 
-    .person-text-container > p {font-size: 14px;padding: 0px;margin: 0px;}
+    .person-text-container > p {font-size: 14px;padding: 0px;margin: 0px;padding-top: 3px;padding-bottom: 5px;}
+
+    .person-text-container > a {text-decoration: none;color:  black ;font-weight:500;margin-top: 10px;}
+
+    .cryptedmail {margin-top: 10px;}
 
     .person {display: inline-block;margin-top: 30px;}

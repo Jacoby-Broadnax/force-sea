@@ -78,7 +78,7 @@
         </header>
 
 
-<div class="carousel">
+<div class="carousel" id="hero">
     <div class="carousel-overlay">
       <div class="carousel-sub">
         <h1>Skills. Experience. Adventure.</h1>
@@ -106,7 +106,16 @@
       </div>
     
 </div>
-
+<script>
+  $(window).scroll(function () {
+      var scroll = $(window).scrollTop();
+      if (scroll > 300) {
+          $("#hero").addClass("go");
+      } else {
+          $("#hero").removeClass("go");
+      }
+  });
+</script>
 <script src="/swiper.js"></script>
 <script>
     var swiper = new Swiper('.swiper-container', {
