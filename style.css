@@ -272,7 +272,7 @@ footer {display: none;}
 .education {height: 100vh;}
 
 .circle {width: 250px; height: 250px; border-radius: 150px;position: absolute;-index: -50; ;}
-.top-right{background-color: #F69442;right: -100px; top: -100px;}
-.bottom-left {background-color: #3ABEBF;left: -100px; bottom: -100px;}
+.top-right{background-color: #F69442;right: -130px; top: -130px;}
+.bottom-left {background-color: #3ABEBF;left: -130px; bottom: -130px;}
   
   }
