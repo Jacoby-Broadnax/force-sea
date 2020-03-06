@@ -252,7 +252,7 @@ button:focus {outline: none;}
   @media only screen and (max-width: 501px) {
 .carousel-sub > p > span {display: inline;}
 .about-us {display: none;}
-.grouped-icons:first-of-type {display: none;}
+
 .about {display: none;}
 .swiper-container{display:none}
 .menu-btns {display: none !important
@@ -269,8 +269,11 @@ button:focus {outline: none;}
 footer {display: none;}
 .contact {display: none;}
 .mobile {display: block;}
-.education {height: 100vh;}
-
+.education {height: 100vh;margin-top: 20vh;}
+.grouped-icons {overflow: scroll; white-space: nowrap;width: 100%;}
+.icon {margin-left: 5px;width: 110px;}
+.icon > p {white-space: pre-wrap;}
+.icon > img {width: 110px;height: 110px;}
 .circle {width: 250px; height: 250px; border-radius: 150px;position: absolute;-index: -50; ;}
 .top-right{background-color: #F69442;right: -130px; top: -130px;}
 .bottom-left {background-color: #3ABEBF;left: -130px; bottom: -130px;}
