@@ -267,6 +267,7 @@ button:focus {outline: none;}
   .logo-container {margin: auto; float: none; width:150px;;}
   .nav-container {position: static;display: none;}
 footer {display: none;}
+.contact {display: none;}
 .mobile {display: block;}
 .education {height: 100vh;}
 
