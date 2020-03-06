@@ -81,7 +81,7 @@ button:focus {outline: none;}
 
   .carousel-sub > h1 {font-size: 60px;color: white;font-weight: bold;text-align: center;margin-bottom: 0px;}
 
-  
+  .carousel-sub > p > span {display: none;}
 
   .swiper-pagination-bullet-active {background-color: white !important; color: black !important;}
 
@@ -111,7 +111,7 @@ button:focus {outline: none;}
 
 
 
-  .icon {display: inline-block;margin-left: 220px;width: 140px;vertical-align: top;}
+  .icon {display: inline-block;margin-left: 220px;width: 140px;vertical-align: top;transition: 0.2s ease;}
 
   .icon > p {font-weight: 500; text-align: center; font-size: 13px;;}
 
@@ -129,7 +129,7 @@ button:focus {outline: none;}
 
 
 
-  .grouped-icons {margin: auto; width: 880px;margin-top:2vh;height: 211px;}
+  .grouped-icons {margin: auto; width: 880px;margin-top:2vh;height: 211px;transition: 0.1s ease;}
 
   .ex:hover {background-image: url(/assets/experience\ icon\ –\ 1.svg);}
 
@@ -198,7 +198,7 @@ button:focus {outline: none;}
 
     .left-group {width: 40%;display: inline-block;float: left;}
 
-    .right-group {display:inline-block;width: 55%;margin-left: 20px;float: left;margin-top: 60px;}
+    .right-group {display:inline-block;width:500px;margin-left: 20px;float: left;margin-top: 60px;}
 
     .halfed {width: 100%;float: left;margin-left: 10px;}
 
@@ -227,3 +227,43 @@ button:focus {outline: none;}
   .contact-info > a {margin-left: 10px;text-decoration: none;color: black;font-weight: 500;transition: 0.2s ease;border-bottom: solid 1px white;padding-bottom: 5px;}
 
   .contact-info > a:hover {border-bottom: solid 1px lightgray;}
+
+  /*-----------------------------------------------Footer-------------------------------------*/
+
+  footer > h3 {font-size: 14px; font-weight:500;text-align: center;}
+
+  footer > h3 > span {font-weight: normal;}
+
+  footer {margin: auto; width: 560px;margin-bottom: 20px;margin-top: -100px;}
+
+  .footer-images > a {text-decoration: none;}
+
+  @media only screen and (max-width: 950px) {
+.about-us { width: 90%;}
+.contact {width: 90%;}
+.education {width: 90%;}
+.grouped-icons > a {margin-left: 5%;}
+.grouped-icons {width: 510px;}
+.icon {margin-left: 40px;}
+  }
+
+  @media only screen and (max-width: 501px) {
+.carousel-sub > p > span {display: inline;}
+.about-us {display: none;}
+.grouped-icons:first-of-type {display: none;}
+.about {display: none;}
+.swiper-container{display:none}
+.menu-btns {display: none !important
+  ;}
+  .carousel-sub > p {color:black;}
+  .carousel-sub > h1 {color:black;font-size: 35px;}
+  .cr-button {background-color: black ;color: white;}
+  .active {background-color: white; color: black;border: solid 1px lightgray;}
+  .carousel-sub {width: 80%;}
+  .carousel {border-bottom: none;}
+  .carousel-overlay {width: 100%;}
+  .logo-container {margin: auto; float: none; width:150px;;}
+  .nav-container {position: static;}
+
+  
+  }
