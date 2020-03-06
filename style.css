@@ -264,7 +264,7 @@ button:focus {outline: none;}
   .cr-button {background-color: black ;color: white;}
   .active {background-color: white; color: black;border: solid 1px lightgray;}
   .carousel-sub {width: 80%;}
-  .carousel {border-bottom: none;}
+  .carousel {border-bottom: none;border: none;}
   .carousel-overlay {width: 100%;top: 24vh;}
   .logo-container {margin: auto; float: none; width:150px;;}
   .nav-container {position: static;display: none;}
