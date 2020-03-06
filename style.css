@@ -251,7 +251,7 @@ button:focus {outline: none;}
 .icon {margin-left: 40px;}
   }
 
-  @media only screen and (max-width: 501px) {
+  @media only screen and (max-width: 630px) {
 .carousel-sub > p > span {display: inline;}
 .about-us {display: none;}
 
@@ -278,5 +278,6 @@ footer {display: none;}
 .circle {width: 250px; height: 250px; border-radius: 150px;position: absolute;-index: -50; ;}
 .top-right{background-color: #F69442;right: -130px; top: -130px;}
 .bottom-left {background-color: #3ABEBF;left: -130px; bottom: -130px;}
+.collapsed-nav {display: none !important;}
   
   }
