@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>SEA Force | Skills. Experience. Adventure.</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="manifest" href="manifest.json">
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="branding/seaforce icon.png"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="title" content="SEA Force | Skills. Experience. Adventure" />
+    <meta
+      name="description"
+      content=" Sea Force is a novel approach to career exploration in Harrison County, Mississippi involving partnerships with local high schools and businesses to match students with the career they think they want."
+    />
+    <meta
+      name="keywords"
+      content="Workforce Development, Harrison County, MS Coast, SEA Force, seaforce, "
+    />
+    <meta name="robots" content="index, follow" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="language" content="English" />
+    <meta name="revisit-after" content="1 days" />
+    <meta name="author" content="Harrison County Development Commission" />
+    <link rel="stylesheet" href="/vivify.min.css" />
+    <title>SEA Force | Skills. Experience. Adventure</title>
+    <meta name="title" content="SEA Force | Skills. Experience. Adventure" />
+    <meta
+      name="description"
+      content="Sea Force is a novel approach to career exploration in Harrison County, Mississippi involving partnerships with local high schools and businesses to match students with the career they think they want."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://seaforcems.org" />
+    <meta
+      property="og:title"
+      content="SEA Force | Skills. Experience. Adventure"
+    />
+    <meta
+      property="og:description"
+      content="Sea Force is a novel approach to career exploration in Harrison County, Mississippi involving partnerships with local high schools and businesses to match students with the career they think they want."
+    />
+    <meta property="og:image" content="branding/seaforcebanner.png" />
+    <meta property="twitter:card" content="branding/seaforcebanner.png" />
+    <meta property="twitter:url" content="https://seaforcems.org" />
+    <meta
+      property="twitter:title"
+      content="SEA Force | Skills. Experience. Adventure"
+    />
+    <meta
+      property="twitter:description"
+      content="Sea Force is a novel approach to career exploration in Harrison County, Mississippi involving partnerships with local high schools and businesses to match students with the career they think they want."
+    />
+    <meta property="twitter:image" content="branding/seaforcebanner.png" />
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="/swiper.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  </head>
+
+  <body>
+    <script src="/swiper.js"></script>
+    <script>
+      var swiper = new Swiper(".swiper-news", {
+        lazy: true,
+        autoplay: {
+          delay: 2900,
+          disableOnInteraction: false
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev"
+        }
+      });
+    </script>
+
+    <header>
+      <nav>
+        <div class="nav-container">
+          <a href="#">
+            <div class="logo-container">
+              <img
+                id="logo"
+                alt="Sea Force Logo"
+                src="/branding/sea force logo.svg"
+              />
+            </div>
+          </a>
+          <ul class="menu-btns">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about-us">About Us</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="collapsed-nav vivify fadeInTop  delay-100" id="collapse">
+        <div>
+          <a href="#">
+            <div class="collapse-logo">
+              <img
+                id="logo2"
+                alt="Sea Force Logo"
+                src="/branding/sea force logo.svg"
+              />
+            </div>
+          </a>
+          <ul class="menu-btns">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about-us">About Us</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <script>
+        $(window).scroll(function() {
+          var scroll = $(window).scrollTop();
+          if (scroll > 50) {
+            $("#collapse").addClass("on");
+          } else {
+            $("#collapse").removeClass("on");
+          }
+        });
+      </script>
+    </header>
+<div class="four">
+    
+</div>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
